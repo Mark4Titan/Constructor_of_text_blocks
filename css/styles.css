@@ -1,0 +1,207 @@
+ul{
+  padding: 0;
+  background-color: rgb(246, 246, 246);
+  width: 534px; 
+  height: auto;
+  display: flex;
+  flex-wrap: wrap
+  
+
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+.divInP{
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+    width: 124px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+
+}
+
+.picture{
+
+    display: flex;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    
+    margin: 0;
+    width: 124px;
+    height: 124px;
+    /* width: 100%;
+    height: 100%;
+    max-width: 124px;
+    max-height: 124px; */
+    z-index: -2;
+
+    /* align-self: flex-start; */
+    line-height: 1.615;
+}
+.canvass{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.inP{
+    
+    /* padding-left: 32px;
+    padding-right: 32px; */
+
+    display: flex;
+
+    width: 124px;
+    height: 124px;
+    opacity: 0;
+    z-index: 2;
+    background-color: blue;
+    
+    
+}
+
+.items {
+    
+  display: flex;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  /* padding: 5px; */
+  background-color: rgb(246, 246, 246);
+  width: 134px; 
+  
+  margin-right: auto;
+  margin-top: 5px;
+  
+
+  padding: 0.5rem;
+
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.3em;
+  height: 14em;
+}
+
+.items:nth-child(3n+3) {
+      margin-right: 0;
+}
+
+
+img {
+    display: flex;  
+    width: 124px;
+    height: 124px;
+    align-self: flex-start;
+    
+  
+}
+
+#title:invalid {
+  color: red
+}
+#text:invalid {
+  color: red
+}
+
+.more{
+    font-size: 25px;
+    }
+
+
+
+.items.null{
+    opacity: 0;
+    
+}
+
+.items.hidden{
+    visibility: hidden;
+
+}
+
+.items.on{
+    cursor:pointer;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.input{     
+    display: grid;
+    width: 400px;
+}
+
+
+input, button, img{
+    margin: 5px;
+    /* background-color: #c4c4c4; */
+    border: transparent;
+    /* border-color: tomato; */
+    
+    font-size: 11px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    
+}
+
+ button, input{
+    height: 20px;    
+        /* background-color: transparent; */
+        
+ 
+}
+
+button{
+    width: 90px ;
+    margin-left: auto;
+}
+.in{
+    display: flex;
+    /* background-color: #eaeaea; */
+    width: 535px;     
+}
+
+.text{
+    padding: 10px 5px;
+    margin: 0;
+}
+.imgM{
+    margin-bottom: 10px;
+   
+}
+
+
+/* .card.on::after{    
+    content: "Загрузить больше";
+    font-size: 24px;
+    width: 130px;
+    height: 180px;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    padding-top: 50px;
+    cursor:pointer;
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+} */
+
+
+.moreDownload{
+    
+    margin-top: 40px;
+    padding: 1rem;
+
+    font-size: 24px;
+    width: 130px;
+    height: 180px;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    padding-top: 50px;
+    cursor:pointer;
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+
+}
+
+

@@ -4,7 +4,69 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Constructor of text blocks</title>
 	</head>
-	<body></body>
+
+	<!--  -->
+	<body>
+		<div id="controls" class="card">
+			<div class="in">
+				<!-- <img class="img" src="../newm.jpg" width="124" alt="Картинка" /> -->
+				<!-- <span width="124">Картинка</span> -->
+				<!-- <div onclick="img()">Загрузить</div> -->
+
+				<!-- <script>
+					function img() {
+						var img = document.createElement('img')
+						img.setAttribute('src', 'адрес_картинки')
+						document.body.appendChild(img)
+					}
+				</script> -->
+
+				<div class="canvass">
+					<!-- <p class="inP">Картинка</p> -->
+					<input
+						id="filetag"
+						type="file"
+						accept=".jpg, .jpeg,"
+						class="inP"
+						value="Картинка"
+					/>
+					<img class="picture" src="../newm.jpg" alt="" />
+				</div>
+				<div class="input" id="inputTitle">
+					<input
+						id="title"
+						type="text"
+						value="Заголовок"
+						pattern="^[А-Яа-яЁё\s]{0,20}"
+						title="Заголовок"
+						required
+					/>
+					<input id="url" type="text" src="URL" value="Ссылка" required />
+					<input
+						id="text"
+						type="text"
+						value="Текст"
+						pattern="^[А-Яа-яЁё\s]{0,250}"
+						required
+					/>
+					<button type="button" data-action="render">Создать</button>
+				</div>
+			</div>
+		</div>
+
+		<!--  -->
+		<div id="boxes">
+			<ul id="card" class="card"></ul>
+
+			<div id="notReal" class="items hidden moreDownload">
+				<div class="boxItems">
+					<p class="more">Загрузить больше</p>
+				</div>
+			</div>
+		</div>
+		<script src="./js/index.js" type="module"></script>
+	</body>
 </html>
